@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="40.943">
-    <testcase classname="Hepsiburada Urun Test" name="Urun Hepsiburada" time="40.373">
-        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.288">
+    <testcase classname="Hepsiburada Urun Test" name="Urun Hepsiburada" time="41.903">
+        <system-out>
             <![CDATA[Given Anasayfada Konum alanına Kklanır......................................passed
-And İl, ilçe ve mahalle sKonumunuz Kaydedildi popup’ı kontrol edilir........pending
-And Konumunuz Kaydedildi popup’ı kontrol edilir.............................skipped
-And Tab bar üzerinden kategoriler tabına Kklanır............................skipped
-And Herhangi bir kategori seçilip listeleme sayfasına yönlenilir............skipped
-Then Listeleme sayfasında Yarın Kapında alanında gelen il bilgisi ile anasayfada seçilen il bilgisinin aynı olduğu kontrol edilir..skipped
+And İl, ilçe ve mahalle sKonumunuz Kaydedildi popup’ı kontrol edilir........passed
+And Konumunuz Kaydedildi popup’ı kontrol edilir.............................passed
+And Tab bar üzerinden kategoriler tabına Kklanır............................passed
+And Herhangi bir kategori seçilip listeleme sayfasına yönlenilir............passed
+Then Listeleme sayfasında Yarın Kapında alanında gelen il bilgisi ile anasayfada seçilen il bilgisinin aynı olduğu kontrol edilir..passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

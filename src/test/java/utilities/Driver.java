@@ -14,8 +14,9 @@ public class Driver {
     }
 
     private static AndroidDriver<AndroidElement> driver;
-    public static String userName = "yaseminzeynepksa_A7opHm";
-    public static String accessKey = "h31AyDbunJjphRWKyuDf";
+    public static String userName = "hokka_2F5zSw";
+    public static String accessKey = "PnAir8CguqWLb71uwtzL";
+    public static String bs="bs://4115953dd18b61b53ecc87c475b1bc43883faf59";
 
     public static AndroidDriver<AndroidElement> get() {
         if (driver == null) {
@@ -45,7 +46,7 @@ public class Driver {
                     desiredCapabilities.setCapability("platformName", "android");
                     desiredCapabilities.setCapability("platformVersion", "9.0");
                     desiredCapabilities.setCapability("deviceName", "Google Pixel 3");
-                    desiredCapabilities.setCapability("app", "bs://9fe47c215bfd70bf2d17158b69262494861ff89c");
+                    desiredCapabilities.setCapability("app", bs);
 
 
                     try {
