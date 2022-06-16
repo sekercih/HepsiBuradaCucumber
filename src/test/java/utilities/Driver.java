@@ -14,9 +14,9 @@ public class Driver {
     }
 
     private static AndroidDriver<AndroidElement> driver;
-    public static String userName = "hokka_2F5zSw";
-    public static String accessKey = "PnAir8CguqWLb71uwtzL";
-    public static String bs="bs://4115953dd18b61b53ecc87c475b1bc43883faf59";
+    public static String userName = "tr_1EXToc";
+    public static String accessKey = "s9iCN6po1sezs5Qqs1E8";
+    public static String bs="bs://367a8ecd79576375dc7f13e1cf5d3cabf6d3065b";
 
     public static AndroidDriver<AndroidElement> get() {
         if (driver == null) {
